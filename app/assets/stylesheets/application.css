@@ -11,16 +11,13 @@
  * file per style scope.
  *
  *= require_tree .
+ *= require stately/stately
  *= require_self
  */
 
 .stately {
-    width: 300px;     /* width and font size must match */
-    font-size: 300px; /*width and font size must match */
+    width: 80%;     /* width and font size must match */
+    font-size: 900px; /*width and font size must match */
     color: #f0f0f0;
-}
-.stately .va,
-.stately .md,
-.stately .dc {
-    color: #FF0000;
+    background-color: black;
 }
