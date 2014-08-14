@@ -22,10 +22,10 @@ $(document).on('ready', function() {
     map                  = new AmCharts.AmMap();
     map.pathToImages     = "http://www.amcharts.com/lib/3/images/";
     map.panEventsEnabled = true;
-    map.backgroundColor  = "#535364";
+    map.backgroundColor  = "black";
     map.backgroundAlpha  = 1;
-    map.zoomControl.panControlEnabled  = false;
-    map.zoomControl.zoomControlEnabled = false;
+    map.zoomControl.panControlEnabled  = true;
+    map.zoomControl.zoomControlEnabled = true;
 
     var dataProvider     = {
       mapVar: AmCharts.maps.usaHigh,
@@ -40,7 +40,7 @@ $(document).on('ready', function() {
       colorSolid: "#5EB7DE",
       selectedColor: "#5EB7DE",
       outlineColor: "#666666",
-      rollOverColor: "#88CAE7",
+      rollOverColor: "red",
       rollOverOutlineColor: "#FFFFFF"
     };
 

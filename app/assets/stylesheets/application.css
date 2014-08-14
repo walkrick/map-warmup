@@ -21,3 +21,32 @@
     color: #f0f0f0;
     background-color: black;
 }
+
+#co {color: purple;}
+#ny {color: purple;}
+#ma {color: purple;}
+#ca {color: purple;}
+#hi {color: purple;}
+#ks {color: teal;}
+#tx {color: purple;}
+#ct {color: purple;}
+#or {color: purple;}
+#nv {color: purple;}
+#mo {color: teal;}
+#fl {color: purple;}
+#wy {color: purple;}
+#ne {color: purple;}
+#nm {color: purple;}
+#az {color: purple;}
+#ut {color: purple;}
+#wa {color: purple;}
+#la {color: yellow;}
+#sc {color: yellow;}
+#il {color: yellow;}
+#ak {background:url(http://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Alaska.svg/213px-Flag_of_Alaska.svg.png);
+    background-size: 50% 50%;
+    -webkit-webkit-background-clip:text ;
+
+    overflow:hidden;
+}
+#ri {color: purple;}
